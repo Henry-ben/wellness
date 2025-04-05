@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #020202;
+  --foreground: #ededed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+@font-face {
+  font-family: "Activa";
+  src: url("/fonts/Anticva-Regular.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/public/fonts/Manrope3\ Regular\ 400.otf") format("opentype");
+  font-display: swap;
+}
+
