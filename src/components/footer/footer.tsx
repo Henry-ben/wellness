@@ -8,10 +8,10 @@ import { TIFE_DETAILS } from "@/lib/utils";
 const Footer = () => {
 
   const navLinks = [
-    { name: "Services", href: "#services" },
-    { name: "Booking", href: "#booking" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "Services", href: "/services" },
+    { name: "Booking", href: "/booking" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
